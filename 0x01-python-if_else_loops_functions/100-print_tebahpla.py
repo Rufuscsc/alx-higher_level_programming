@@ -1,7 +1,14 @@
+from turtle import Turtle, Screen
 
+square = Turtle()
+square.forward(100)
+square.right(90)
+square.forward(100)
+square.right(90)
+square.forward(100)
+square.right(90)
+square.forward(100)
 
+my_screen = Screen()
 
-a, b = 0, 1
-while a < 10:
-    print(a)
-    a, b = b, a+b
+my_screen.exitonclick()
